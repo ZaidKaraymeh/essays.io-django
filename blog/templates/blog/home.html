@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+
+{% block hero %}
+
+    <div class="jumbotron bg-white jumbotron-fluid">
+        <h1 class="display-4">Start Writing Your Essays Now!</h1>
+        <p class="lead">A place to store all of your work</p>
+        <hr class="my-4">
+        <p>never worry again about unorganized or lost essays, save them all in one place!</p>
+        <p class="lead">
+            <a class="btn btn-outline-secondary btn-lg"  href="{% url 'blog-create' %}" role="button">Start Writing Now</a>
+        </p>
+    </div>
+
+{% endblock hero %}
